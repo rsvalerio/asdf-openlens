@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-shellcheck --shell=bash --external-sources \
-	bin/* --source-path=template/lib/ \
+shellcheck --shell=bash \
+	bin/* \
 	lib/* \
 	scripts/*
 
